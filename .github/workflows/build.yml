@@ -27,7 +27,7 @@ jobs:
       - name: Apply custom config
         run: |
           cd immortalwrt
-          curl -Lo .config https://raw.githubusercontent.com/<your-username>/<your-repo>/main/.config
+          curl -Lo .config https://raw.githubusercontent.com/Owen0225/immortalwrt-x86_64/main/.config
           make defconfig
 
       - name: Build firmware
